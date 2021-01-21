@@ -25,5 +25,6 @@ public class ejercicio30 {
             ok=true;
         }
         System.out.println("Cumple con el formato: " + ok);
+        System.out.println("Acabo de añadir esto como prueba");
     }
 }
