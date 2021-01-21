@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Ejemplo formulario</title>
+</head>
+<body>
+	<div id=cabecera>
+		<h3>Información sobre el producto</h3>
+	</div>
+	<div id=contenedor>
+		<form>
+			<fieldset>
+				<legend>Datos básicos</legend>
+                <label for="nombre">Nombre</label></br>
+                <input type="text" id="nombre" name="Nombre" size="40"></br></br>
+
+				<label for="descripcion">Descripción</label></br>                   
+                <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea></br></br>
+
+                <label for="foto">Foto</label>
+                <input type="file" id="foto" name="adjunto"></br></br>
+
+                <input type="checkbox" id="visitas" name="visitas"><label for="visitas">Añadir contador de visitas</label></br></br>				
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="Precio">Precio</label>
+                <input type="text" id="Precio" name="Precio" size="4">
+                <span>€&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+                <label for="Impuestos">Impuestos</label> 
+                <select id="Impuestos" name="Impuestos">
+                    <optgroup label="Impuestos">
+                        <option value="4%" selected="selected">4%</option>
+                        <option value="7%">7%</option>
+                        <option value="16%">16%</option>
+                        <option value="25%">25%</option>                     
+                    </optgroup>
+                </select></br></br>
+
+                <label for="promocion">Promoción</label></br>
+                <input type="radio" id="ninguno" name="promocion" value="ninguno" checked="checked">
+                <label for="niguno">Ninguno</label></br>
+                <input type="radio" id="transporte" name="promocion" value="transporte">
+                <label for="transporte">Transporte gratuito</label></br>
+                <input type="radio" id="descuento" name="promocion" value="descuento">
+                <label for="transporte">Descuento 5%</label>
+            </fieldset>
+		</form>
+	</div>
+	<div id="pie">
+		
+	</div>
+</body>
+</html>
