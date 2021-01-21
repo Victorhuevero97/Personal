@@ -26,5 +26,6 @@ public class ejercicio30 {
         }
         System.out.println("Cumple con el formato: " + ok);
         System.out.println("Acabo de añadir esto como prueba");
+        System.out.println("ESTO ES UNA SEGUNDA PRUEBA");
     }
 }
